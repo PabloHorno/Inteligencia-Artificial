@@ -4,7 +4,7 @@ Degree in Industrial Automatic and Electronic Engineering at [University of Vall
 IA for academic purpose using algorithms such us Uniform Cost Search, Informed (Heuristic) Search, A*, Simulated Annealing
 
 
-Contributing
+## Contributing
 ------------
 
 Pull requests, bug reports, and feature requests are welcome.

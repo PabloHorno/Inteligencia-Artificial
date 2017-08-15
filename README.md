@@ -11,4 +11,5 @@ Pull requests, bug reports, and feature requests are welcome.
 Authors
 ------------
 Pablo Horno Pérez
+
 **College professor:** *Félix Miguel Trespaderne*

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="reversi" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/kk" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/kk" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="../SFML/include" />
+		</Compiler>
+		<Linker>
+			<Add library="../SFML/lib/libsfml-graphics.a" />
+			<Add library="../SFML/lib/libsfml-window.a" />
+			<Add library="../SFML/lib/libsfml-system.a" />
+			<Add directory="../SFML/lib" />
+		</Linker>
+		<Unit filename="casilla.cpp" />
+		<Unit filename="casilla.h" />
+		<Unit filename="controlador.cpp" />
+		<Unit filename="controlador.h" />
+		<Unit filename="enumeraciones.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="nodo_reversi.cpp" />
+		<Unit filename="nodo_reversi.h" />
+		<Unit filename="observador.h" />
+		<Unit filename="panel.cpp" />
+		<Unit filename="panel.h" />
+		<Unit filename="posicion_reversi.cpp" />
+		<Unit filename="posicion_reversi.h" />
+		<Unit filename="rejilla.cpp" />
+		<Unit filename="rejilla.h" />
+		<Unit filename="reversi.cpp" />
+		<Unit filename="reversi.h" />
+		<Unit filename="texturas.h" />
+		<Unit filename="vista.cpp" />
+		<Unit filename="vista.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

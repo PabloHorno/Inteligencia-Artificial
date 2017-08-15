@@ -5,8 +5,6 @@ IA for academic purpose using algorithms such us Uniform Cost Search, Informed (
 
 
 ## Contributing
-------------
-
 Pull requests, bug reports, and feature requests are welcome.
 
 Authors
